@@ -1,0 +1,5 @@
+info = input('Digite algo: ')
+print('O tipo primitivo deste termo é ',type(info))
+print('Este termo é numérico?', info.isnumeric())
+print('Este termo está em minúsculo?', info.islower())
+print('Este termo só tem espaço?', info.isspace())
