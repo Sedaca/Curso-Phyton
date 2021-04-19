@@ -1,0 +1,11 @@
+info = input('Digite algo: ')
+print('O tipo primitivo de',info,'é',type(info))
+
+print('Só tem espaços?')
+print(info.isspace())
+print('É composta por números?')
+print(info.isnumeric())
+print('É composta por letras?')
+print(info.isalpha())
+print('Está Capitalizada?')
+print(info.isupper())
